@@ -1,0 +1,17 @@
+{
+  "name": "feedback-access-card-automation",
+  "version": "1.0.0",
+  "description": "Unified Playwright suite for Feedback Access Card",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:detail": "playwright test tests/detail\\ card-epass-automation",
+    "test:role": "playwright test tests/role\\ access-epass-automation",
+    "test:status": "playwright test tests/status\\ card-epass-automation",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0"
+  }
+}
